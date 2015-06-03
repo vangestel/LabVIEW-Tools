@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Data type="AdminData">
+  <DataChannel>
+    <Port>12200</Port>
+    <ControlFile>ControlConfig.xml</ControlFile>
+    <EnableStreamToFile>False</EnableStreamToFile>
+    <StreamFile />
+  </DataChannel>
+  <PriorityChannel>
+    <Port>12201</Port>
+  </PriorityChannel>
+  <EventChannel>
+    <Port>12202</Port>
+  </EventChannel>
+  <AliveChannel>
+    <Port>12203</Port>
+  </AliveChannel>
+  <BroadcastChannel>
+    <Address>224.168.100.2</Address>
+    <Port>11000</Port>
+    <Retransmit type="SysInfoData" time="5" />
+    <Retransmit type="StatInfoData" time="2" />
+  </BroadcastChannel>
+  <Settings>
+		<FriendlyName>EC1000</FriendlyName>
+		<HeadSerialNumber>TBD</HeadSerialNumber>
+		<LocalMode>False</LocalMode>
+		<BreakOK>False</BreakOK>
+		<Client>LANStream</Client>
+		<Pendant>QTERMJ10</Pendant>
+		<PendantPort>COM1:</PendantPort>
+		<PendantPortSpeed>38400</PendantPortSpeed>
+		<APIPort />
+		<APIPortSpeed>38400</APIPortSpeed>
+		<MotionPort />
+		<MotionPortSpeed>38400</MotionPortSpeed>
+		<LaserPort>COM2:</LaserPort>
+		<LaserPortSpeed>38400</LaserPortSpeed>
+		<DFMPort />
+		<DFMPortSpeed>38400</DFMPortSpeed>
+		<DebugPort />
+		<DebugPortSpeed>38400</DebugPortSpeed>
+		<User>000000</User>
+		<Admin>000000</Admin>
+		<LoggingLevel>0</LoggingLevel>
+	</Settings>
+</Data>
